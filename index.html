@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Neighbour Studio</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="d-flex justify-content-between py-5">
+            <div>
+                <h2 style="letter-spacing: -1px;"><b>Neighbour</b> Studio</h2>
+            </div>
+            <div>
+                <span onclick="openNav()">
+                    <i class="fa fa-bars menu-icon" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="#">Sobre</a>
+                <a href="#">Serviços</a>
+                <a href="#">Contacto</a>
+            </div>
+
+        </div>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+
+
+        <div class="py-4">
+            <div class="row">
+                <div class="col-lg-6 mb-3 mb-lg-0">
+                    <div class="hover hover-1 text-white"><img
+                            src="https://images.squarespace-cdn.com/content/v1/5f55fd11fba1f67df81d7f17/1601920258962-TLPMT6QZYIMJ14X833J1/ke17ZwdGBToddI8pDm48kKwMFAex-CvLWy4CH9W6Kzt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0ooWhOa5cxQSJsU3rXf8luWjIsKQ6oIf404bDr2RtSPxELRDJld-7Ti-Cj-lgLIDhw/CATIAPrancheta+51.jpg?format=2500w" alt="">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-1-content px-5 py-4">
+                            <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light">Image </span>Caption</h3>
+                            <p class="hover-1-description font-weight-light mb-0">Lorem ipsum dolor sit amet,consectetur
+                                adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hover hover-1 text-white"><img
+                            src="https://images.squarespace-cdn.com/content/v1/5f55fd11fba1f67df81d7f17/1599667443212-F1J3VK36NKONPUQHGEWW/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/Square_Book_Mockup_03.jpg?format=2500w" alt="">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-1-content px-5 py-4">
+                            <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light">Image </span>Caption</h3>
+                            <p class="hover-1-description font-weight-light mb-0">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="row">
+                <div class="col-lg-6 mb-3 mb-lg-0">
+                    <div class="hover hover-1 text-white"><img
+                            src="https://images.squarespace-cdn.com/content/v1/5f55fd11fba1f67df81d7f17/1604604442488-29QVH53G72TLZ4NTI5MI/ke17ZwdGBToddI8pDm48kIk-vKvhEMUIFWbFUbpc6ON7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZxSMPEu-8_7it3sBDRnX64tX5yzuBdYp7949zMm1Fm8ZtJ3qR9G2BYeA0wOAaeYNg/CATIAPrancheta+1816.png?format=2500w" alt="">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-1-content px-5 py-4">
+                            <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light">Image </span>Caption</h3>
+                            <p class="hover-1-description font-weight-light mb-0">Lorem ipsum dolor sit amet,consectetur
+                                adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hover hover-1 text-white"><img
+                            src="https://res.cloudinary.com/mhmd/image/upload/v1570786257/hoverSet-4_fbtjks.jpg" alt="">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-1-content px-5 py-4">
+                            <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light">Image </span>Caption</h3>
+                            <p class="hover-1-description font-weight-light mb-0">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+
+        <div class="d-flex justify-content-between py-5 my-5">
+            <div class="p-2">
+
+                <h5 class="pb-3"><b>Vamos trabalhar juntos</b></h5>
+                <h6>Começar um projeto →</h6>
+                <h6><i class="fa fa-envelope-o" aria-hidden="true"></i> business@neighbour.studio</h6>
+
+
+            </div>
+            <div class="p-2">
+
+
+                <h5 class="pb-3"><b>Fale Connosco</b></h5>
+                
+                <h6><i class="fa fa-envelope-o" aria-hidden="true"></i> hello@neighbour.studio</h6>
+
+            </div>
+            <div class="p-2">
+
+                <h5 class="pb-3"><b>Onde estamos</b></h5>
+                <h6>Rua Joaquim Silva →</h6>
+                <h6>Porto, Portugal ☀️ 28°</h6>
+
+
+            </div>
+          </div>
+
+
+
+        <div class="d-flex justify-content-between my-5 py-5">
+            <div>
+               <p>© Neighbour Studio 2020</p>
+            </div>
+            <div>
+                <span onclick="openNav()">
+                
+                   <p>Intagram - Behance - Twitter</p>
+
+                </span>
+            </div>
+       </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
